@@ -1,0 +1,7 @@
+services:
+  beacon-responder:
+    build: .
+    ports:
+      - "3199:3000"
+    environment:
+      - NODE_ENV=production
